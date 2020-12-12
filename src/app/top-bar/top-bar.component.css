@@ -1,7 +1,22 @@
-h1{
-  font: menu;
+ul{
+  padding: 0px;
+  background-color: red;
+}
+li{
+   display: inline-block;
+  color: white;
+  margin: 20px;
   
 }
+a {
+  display: inline-block;
+  
+}
+
+li a:hover:not(.active){
+  background-color: black;
+}
+
 
 /*
 Copyright Google LLC. All Rights Reserved.

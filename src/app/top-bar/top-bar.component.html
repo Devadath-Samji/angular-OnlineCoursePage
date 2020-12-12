@@ -1,9 +1,14 @@
-<a [routerLink]="['/']">
-  <h1>Home</h1>
-</a>
-<!-- <a><h2 style="color:white">Checkout</h2></a> -->
-<a routerLink="/cart" class="button fancy-button"><i class="material-icons">shopping_cart</i>Checkout</a>
+<ul>
+<li><a [routerLink]="['/']">Home</a></li>
+<a [routerLink]="['/categories']"><li>Categories</li></a>
+<a [routerLink]="['/my-courses']"><li>My Courses</li></a>
+<a [routerLink]="['/help']"><li>Help</li></a>
 
+</ul>
+
+<!-- <a><h2 style="color:white">Checkout</h2></a>
+<a routerLink="/cart" class="button fancy-button"><i class="material-icons">shopping_cart</i>Checkout</a>
+ -->
 <!-- <a class="button fancy-button">
   <i class="material-icons">add_shopping_cart</i>
   Checkout</a> -->
