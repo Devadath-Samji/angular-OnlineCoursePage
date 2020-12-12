@@ -3,6 +3,10 @@ h1{
   font-style: oblique;
   color:black;
 }
+i{
+  
+  color:darkred;
+}
 span{
   color:bisque;
   font-family:    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
