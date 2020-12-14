@@ -1,18 +1,18 @@
 export const productsArray = [
   {
     name: 'Course 1',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    price: 1700,
+    description: '14hr course with downloadable videos and practice files. '
   },
   {
     name: 'Course 2',
-    price: 1699,
-    description: 'A great phone with one of the best cameras'
+    price: 1000,
+    description: 'Short course (2hrs) with regular quiz sessions'
   },
   {
     name: 'Course 3',
-    price: 299,
-    description: ''
+    price: 2000,
+    description: 'Package of 7 courses to develop core skill.'
   }
 ];
 
